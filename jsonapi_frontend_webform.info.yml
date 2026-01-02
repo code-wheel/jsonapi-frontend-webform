@@ -1,0 +1,8 @@
+name: 'JSON:API Frontend Webform'
+type: module
+description: 'Optional integration for jsonapi_frontend: resolves Webform routes as non-headless so frontends can proxy/redirect to Drupal.'
+core_version_requirement: '^10 || ^11'
+package: 'Web services'
+dependencies:
+  - jsonapi_frontend:jsonapi_frontend
+  - webform:webform

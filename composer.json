@@ -1,0 +1,21 @@
+{
+  "name": "drupal/jsonapi_frontend_webform",
+  "type": "drupal-module",
+  "description": "Optional Webform integration for jsonapi_frontend. Ensures Webform routes resolve as non-headless so frontends can proxy/redirect safely.",
+  "keywords": [
+    "Drupal",
+    "JSON:API",
+    "headless",
+    "decoupled",
+    "Webform"
+  ],
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.drupal.org/project/jsonapi_frontend",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/jsonapi_frontend",
+    "source": "https://git.drupalcode.org/project/jsonapi_frontend"
+  },
+  "require": {
+    "drupal/core": "^10 || ^11"
+  }
+}

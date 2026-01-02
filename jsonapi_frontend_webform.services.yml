@@ -1,0 +1,13 @@
+services:
+  jsonapi_frontend_webform.path_resolver:
+    class: Drupal\jsonapi_frontend_webform\Service\WebformPathResolver
+    decorates: jsonapi_frontend.path_resolver
+    decoration_priority: 50
+    arguments:
+      - '@jsonapi_frontend_webform.path_resolver.inner'
+      - '@path_alias.manager'
+      - '@path.validator'
+      - '@language_manager'
+      - '@module_handler'
+      - '@config.factory'
+      - '@request_stack'
