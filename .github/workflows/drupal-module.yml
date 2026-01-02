@@ -28,7 +28,7 @@ jobs:
             webform: "^6"
           - drupal: "^11"
             php: "8.3"
-            webform: "^7"
+            webform: "^6"
 
     env:
       SIMPLETEST_BASE_URL: "http://127.0.0.1"
@@ -76,4 +76,3 @@ jobs:
         run: |
           cd drupal/web
           ../vendor/bin/phpunit -c core modules/contrib/jsonapi_frontend_webform/tests
-
