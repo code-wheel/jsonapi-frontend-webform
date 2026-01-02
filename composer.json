@@ -10,10 +10,10 @@
     "Webform"
   ],
   "license": "GPL-2.0-or-later",
-  "homepage": "https://www.drupal.org/project/jsonapi_frontend",
+  "homepage": "https://www.drupal.org/project/jsonapi_frontend_webform",
   "support": {
-    "issues": "https://www.drupal.org/project/issues/jsonapi_frontend",
-    "source": "https://git.drupalcode.org/project/jsonapi_frontend"
+    "issues": "https://www.drupal.org/project/issues/jsonapi_frontend_webform",
+    "source": "https://git.drupalcode.org/project/jsonapi_frontend_webform"
   },
   "require": {
     "drupal/core": "^10 || ^11",
