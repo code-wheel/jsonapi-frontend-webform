@@ -1,6 +1,8 @@
-# jsonapi_frontend_webform
+# JSON:API Frontend Webform
 
 Optional integration module for [`jsonapi_frontend`](https://www.drupal.org/project/jsonapi_frontend) that makes Drupal Webforms work cleanly in hybrid headless setups.
+
+Project page: https://www.drupal.org/project/jsonapi_frontend_webform
 
 ## What it does
 
