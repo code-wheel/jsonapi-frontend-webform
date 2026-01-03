@@ -27,3 +27,8 @@ drush en jsonapi_frontend_webform
 
 - This module is intentionally **hybrid-first**: it keeps Webform rendering + submissions on Drupal.
 - Fully headless Webform rendering is a separate problem (REST resources, auth, CORS/CSRF, file uploads). See `ROADMAP.md`.
+
+## Security & caching
+
+- Webforms are rendered by Drupal; frontends should redirect/proxy rather than attempting browser-side submissions against protected origins.
+- For proxy/rate limiting guidance, see `jsonapi_frontend`’s `MIGRATION.md` (Security hardening section).
