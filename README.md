@@ -1,5 +1,7 @@
 # JSON:API Frontend Webform
 
+[![Drupal Module](https://github.com/code-wheel/jsonapi-frontend-webform/actions/workflows/drupal-module.yml/badge.svg?branch=master)](https://github.com/code-wheel/jsonapi-frontend-webform/actions/workflows/drupal-module.yml?query=branch%3Amaster) [![Semgrep](https://github.com/code-wheel/jsonapi-frontend-webform/actions/workflows/semgrep.yml/badge.svg?branch=master)](https://github.com/code-wheel/jsonapi-frontend-webform/actions/workflows/semgrep.yml?query=branch%3Amaster) [![codecov](https://codecov.io/gh/code-wheel/jsonapi-frontend-webform/branch/master/graph/badge.svg)](https://codecov.io/gh/code-wheel/jsonapi-frontend-webform) [![Security Policy](https://img.shields.io/badge/security-policy-blue.svg)](SECURITY.md)
+
 Optional integration module for [`jsonapi_frontend`](https://www.drupal.org/project/jsonapi_frontend) that makes Drupal Webforms work cleanly in hybrid headless setups.
 
 Project page: https://www.drupal.org/project/jsonapi_frontend_webform
