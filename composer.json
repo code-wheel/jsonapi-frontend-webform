@@ -22,7 +22,7 @@
     }
   ],
   "require": {
-    "drupal/core": "^10 || ^11",
+    "drupal/core": "^10 || ^11 || ^12",
     "drupal/jsonapi_frontend": "^1.0.7",
     "drupal/webform": "^6 || ^7"
   }
